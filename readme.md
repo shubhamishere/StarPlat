@@ -1,5 +1,69 @@
 # StarPlat
+StarPlat, allows programmers to specify graph algorithms in a high-level format, but
+generates code for three different backends from the same algorithmic specification. In particular, the DSL compiler generates OpenMP for multi-core systems, MPI for distributed systems,
+and CUDA for many - core GPUs.
+
+# Package
+## Directories
+graphcode: contains generated backend code, custom graph data structures, main caller functions, static and dynamic DSL code, few manually written graph algorithms code for, header files and sample example graphs.
+src
+py-starplat
+
+## Dependencies
+
+# Build
+## System requirements
+Mac
+Linux
+WSL
+Windows
+
+# Compile & execute
+
+# Publication
+[StarPlat: A versatile DSL for graph analytics](https://www.sciencedirect.com/science/article/pii/S074373152400131X); Nibedita Behera, Ashwina Kumar, Ebenezer Rajadurai T, Sai Nitish, Rajesh Pandian M, Rupesh Nasre; IJPP 2024
+
+# Acknowledgments
+```
+This project is funded by India's National Supercomputing Mission, whose timely funding and regular reviews are greatly appreciated.
+Part of the work is supported by Qualcomm Innovation Fellowship 2023. 
+```
+
+# Licensing
+The StarPlat codebase is made available for academic and non-commercial use.
+StarPlat is patented. Commercial use of the code needs licensing. The interested may contact rupesh@cse.iitm.ac.in.
+#
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Installation and Usage Instruction for linux/WSL
 
 ##### Make sure you have build-essential (latest), bison 3.8.2, gcc 11, g++ 11, flex 2.6.4, libomp-dev
