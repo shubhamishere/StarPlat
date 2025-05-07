@@ -27,9 +27,17 @@ nvcc, for executing CUDA code
 - 2. Generate code - 
 - 3. Compile & execute generated code - 
 
-# Steps to build StarPlat
+# Steps to build StarPlat (MacOS Sequoia | M1)
 - Download and install dependencies
+  ```
+    brew install make gcc flex bison
+  ```
+
 - Build StarPlat
+${top} denotes where you have kept your source package
+  ```
+  ${top}/StarPlat/src/Makefile
+  ```
 
 # Steps to generate OpenMP code
 - Download and install dependencies
