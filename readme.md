@@ -1,43 +1,59 @@
-# 1. StarPlat
+# StarPlat
 StarPlat, allows programmers to specify graph algorithms in a high-level format, but
 generates code for three different backends from the same algorithmic specification. In particular, the DSL compiler generates OpenMP for multi-core systems, MPI for distributed systems,
 and CUDA for many - core GPUs.
 
-# 2. Package
-## 2.1 Directories
-graphcode: contains generated backend code, custom graph data structures, main caller functions, static and dynamic DSL code, few manually written graph algorithms code for, header files and sample example graphs.
-src
-py-starplat
+# Package directories
+- graphcode
+contains generated backend code, custom graph data structures, main caller functions, static and dynamic DSL code, few manually written graph algorithms code for, header files and sample example graphs.
+- src
+asd dfg ghj er 
+- py-starplat
+asd qwe qwer ert ytu bnm 
 
-## 2.2 Dependencies
-lib-omp, for executing OpenMP code
-nvcc, for executing CUDA code
-///, for MPI code
-
-# 3. Build StarPlat and generate code
-make, gcc14, flex, bison for compiling (building) StarPlat itself and other dependencies are needed according to the backend code the user wants to execute
-
-## 3.1 System requirements
+# System requirements
 Linux
 Mac
 WSL
 
-## 3.2 Steps to build StarPlat
+# Dependencies
+make, gcc14, flex, bison for compiling (building) StarPlat itself and other dependencies are needed according to the backend code the user wants to execute
+lib-omp, for executing OpenMP code
+nvcc, for executing CUDA code
+///, for MPI code
 
-## 3.3 Steps to generate OpenMP code
-from this OpenMP directory
-## 3.4 Steps to generate CUDA code
-from this CUDA directory
-## 3.5 Steps to generate MPI code
-from this MPI directory
+# Using StarPlat
+- 1. Build StarPlat - 
+- 2. Generate code - 
+- 3. Compile & execute generated code - 
 
-# 4. Compile & execute
-## 4.1 Steps to compile and execute the generated OpenMP code
-from this OpenMP directory
-## 4.2 Steps to compile and execute the generated CUDA code
-from this CUDA directory
-## 4.3 Steps to compile and execute the generated MPI code
-from this MPI directory
+# Steps to build StarPlat
+- Download and install dependencies
+- Build StarPlat
+
+# Steps to generate OpenMP code
+- Download and install dependencies
+- Select a DSL static code
+- flags meaning
+
+# Steps to generate CUDA code
+- Download and install dependencies
+- Select a DSL static code
+- flags meaning
+
+# Steps to generate MPI code
+- Download and install dependencies
+- Select a DSL static code
+- flags meaning
+
+
+
+# Steps to compile and execute the generated OpenMP code
+- from this OpenMP directory
+# Steps to compile and execute the generated CUDA code
+- from this CUDA directory
+# Steps to compile and execute the generated MPI code
+- from this MPI directory
 
 
 # Publication
