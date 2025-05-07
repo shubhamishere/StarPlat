@@ -10,13 +10,20 @@ src
 py-starplat
 
 ## Dependencies
+lib-omp, for executing OpenMP code
+nvcc, for executing CUDA code
+, for MPI code
 
 # Build
+make, gcc14, flex, bison for compiling (building) StarPlat itself and other dependencies are needed according to the backend code the user wants to execute
+
 ## System requirements
 Mac
 Linux
 WSL
-Windows
+
+## Steps to build and execute
+
 
 # Compile & execute
 
