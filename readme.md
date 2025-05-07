@@ -1,31 +1,46 @@
-# StarPlat
+# 1. StarPlat
 StarPlat, allows programmers to specify graph algorithms in a high-level format, but
 generates code for three different backends from the same algorithmic specification. In particular, the DSL compiler generates OpenMP for multi-core systems, MPI for distributed systems,
 and CUDA for many - core GPUs.
 
-# Package
-## Directories
+# 2. Package
+## 2.1 Directories
 graphcode: contains generated backend code, custom graph data structures, main caller functions, static and dynamic DSL code, few manually written graph algorithms code for, header files and sample example graphs.
 src
 py-starplat
 
-## Dependencies
+## 2.2 Dependencies
 lib-omp, for executing OpenMP code
 nvcc, for executing CUDA code
 ///, for MPI code
 
-# Build
+# 3. Build StarPlat and generated code
 make, gcc14, flex, bison for compiling (building) StarPlat itself and other dependencies are needed according to the backend code the user wants to execute
 
-## System requirements
-Mac
+## 3.1 System requirements
 Linux
+Mac
 WSL
 
-## Steps to build and execute
+## 3.2 Steps to build StarPlat
 
+## 3.2 Steps to generate code backend parallel code using StarPlat DSL static code
+Steps to generate backend parallel code using StarPlat DSL static code
+## Steps to generate OpenMP code
+from this OpenMP directory
+## Steps to generate CUDA code
+from this CUDA directory
+## Steps to generate MPI code
+from this CUDA directory
 
 # Compile & execute
+## Steps to compile and execute the generated OpenMP code
+from this OpenMP directory
+## Steps to compile and execute the generated CUDA code
+from this CUDA directory
+## Steps to compile and execute the generated MPI code
+from this CUDA directory
+
 
 # Publication
 [StarPlat: A versatile DSL for graph analytics](https://www.sciencedirect.com/science/article/pii/S074373152400131X); Nibedita Behera, Ashwina Kumar, Ebenezer Rajadurai T, Sai Nitish, Rajesh Pandian M, Rupesh Nasre; IJPP 2024
