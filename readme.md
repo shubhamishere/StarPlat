@@ -14,7 +14,7 @@ lib-omp, for executing OpenMP code
 nvcc, for executing CUDA code
 ///, for MPI code
 
-# 3. Build StarPlat and generated code
+# 3. Build StarPlat and generate code
 make, gcc14, flex, bison for compiling (building) StarPlat itself and other dependencies are needed according to the backend code the user wants to execute
 
 ## 3.1 System requirements
@@ -24,22 +24,20 @@ WSL
 
 ## 3.2 Steps to build StarPlat
 
-## 3.2 Steps to generate code backend parallel code using StarPlat DSL static code
-Steps to generate backend parallel code using StarPlat DSL static code
-## Steps to generate OpenMP code
+## 3.3 Steps to generate OpenMP code
 from this OpenMP directory
-## Steps to generate CUDA code
+## 3.4 Steps to generate CUDA code
 from this CUDA directory
-## Steps to generate MPI code
-from this CUDA directory
+## 3.5 Steps to generate MPI code
+from this MPI directory
 
-# Compile & execute
-## Steps to compile and execute the generated OpenMP code
+# 4. Compile & execute
+## 4.1 Steps to compile and execute the generated OpenMP code
 from this OpenMP directory
-## Steps to compile and execute the generated CUDA code
+## 4.2 Steps to compile and execute the generated CUDA code
 from this CUDA directory
-## Steps to compile and execute the generated MPI code
-from this CUDA directory
+## 4.3 Steps to compile and execute the generated MPI code
+from this MPI directory
 
 
 # Publication
